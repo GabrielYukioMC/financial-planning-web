@@ -8,15 +8,16 @@ pnpm-debug.log*
 lerna-debug.log*
 
 *node_modules
-*.env
+
 dist
 dist-ssr
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# dotenv
+# Arquivos de ambiente
+.env
+.env.*
+
 .DS_Store
 *.suo
 *.ntvs*
